@@ -75,3 +75,5 @@ Projekt je sestavljen iz začetne strani in petih poglavij.
 ## Licenca
 
 Vse pravice pridržane. Za uporabo in nadaljnje razširjanje vsebine veljajo pravice avtorja.
+
+*[Treved](https://treved.dev)*
