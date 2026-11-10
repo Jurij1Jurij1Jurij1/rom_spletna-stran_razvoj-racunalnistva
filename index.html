@@ -1,0 +1,40 @@
+<!-- OPOMBA: ta datoteka je v celoti ustvarjena z umetno inteligenco, kar pa ne velja za ostale datoteke! -->
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Preusmeritev</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="countdown">3</div>
+
+    <script>
+        let sekunde = 3;
+        const element = document.getElementById("countdown");
+
+        const interval = setInterval(() => {
+            sekunde--;
+            if (sekunde > 0) {
+                element.textContent = sekunde;
+            } else {
+                clearInterval(interval);
+                window.location.replace("./home/");
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>
